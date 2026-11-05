@@ -1,4 +1,4 @@
-# T2I Models Rarely Invert Negation but Often Fail to Suppress Negated Concepts: Benchmarking Negation Suppression in Text-to-Image Generation
+# T2I Models Rarely Invert Negation but Often Fail to Suppress Negated Concepts: The T2I-NSI Benchmark for Negation Suppression in Text-to-Image Generation
 
 Official code and benchmark release for the WACV 2027 paper.
 
@@ -316,7 +316,7 @@ results/robust_all_models_summary.json    # when scoring more than one model
 
 ```bibtex
 @inproceedings{gautam2027t2insi,
-  title     = {T2I Models Rarely Invert Negation but Often Fail to Suppress Negated Concepts: Benchmarking Negation Suppression in Text-to-Image Generation},
+  title     = {T2I Models Rarely Invert Negation but Often Fail to Suppress Negated Concepts: The T2I-NSI Benchmark for Negation Suppression in Text-to-Image Generation},
   author    = {Gautam, Akansha and Bharati, Aparna and Vatsa, Mayank and Singh, Richa},
   booktitle = {IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
   year      = {2027}
