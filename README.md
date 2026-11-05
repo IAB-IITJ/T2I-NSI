@@ -89,7 +89,7 @@ The Robust scorer labels each atom in the `class_j` column:
 |------------------|-----------------------------------|--------------------------------------|
 | `SUCCESS`        | C ≥ θ<sub>pos</sub>, R⁻ ≤ θ<sub>neg</sub> | Rendered when asked, suppressed when negated |
 | `ALWAYS_PRESENT` | C ≥ θ<sub>pos</sub>, R⁻ ≥ θ<sub>pos</sub> | Present under both prompts           |
-| `ALWAYS_ABSENT`  | C < θ<sub>neg</sub>, R⁻ < θ<sub>neg</sub> | Rarely rendered under either prompt  |
+| `ALWAYS_ABSENT`  | C ≤ θ<sub>neg</sub>, R⁻ ≤ θ<sub>neg</sub> | Rarely rendered under either prompt  |
 | `INVERSE`        | C ≤ θ<sub>neg</sub>, R⁻ ≥ θ<sub>pos</sub> | Present only under negation          |
 | `OTHER`          | Everything else                   | Residual region                      |
 
