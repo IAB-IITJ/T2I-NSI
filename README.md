@@ -3,7 +3,7 @@
 Official code and benchmark release for the WACV 2027 paper.
 
 **Authors:** Akansha Gautam, Aparna Bharati, Mayank Vatsa, Richa Singh
-(Indian Institute of Technology Jodhpur; Lehigh University)
+(Indian Institute of Technology Jodhpur; Colorado State University)
 
 ---
 
